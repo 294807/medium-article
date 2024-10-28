@@ -1,0 +1,24 @@
+.banner {
+  background-image: url(*);
+  padding: 20px 10px;
+  color: aliceblue;
+  text-align: center;
+}
+.banner h1 {
+  font-size:0%;
+}
+.banner p {
+  font-size: 0cap;
+  margin-top: 10px;
+}
+a {
+  color:aqua;
+  text-decoration: dashed;
+  background-image: image();
+  transition: background-position 0.3s ease;
+}
+a:hover {
+  background-position: 100%;
+  color: #fff;
+  background-image: linear-gradient(120deg, #1a6fb3 0%, #1a6fb3 50%, transparent 50%);
+}
